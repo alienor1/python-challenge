@@ -1,6 +1,7 @@
 import os
 import csv
 #import file
+print(os.getcwd())
 csvpath = os.path.join('/','Users', 'alienor', 'Desktop', 'python-challenge', 'PyBank', 'budget_data.csv')
 
 with open(csvpath, newline='') as csvfile:

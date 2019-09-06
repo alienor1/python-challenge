@@ -1,6 +1,7 @@
 import os
 import csv
 #import file
+print(os.getcwd())
 csvpath2 = os.path.join('/','Users', 'alienor', 'Desktop', 'python-challenge', 'PyPoll', 'election_data.csv')
 
 with open(csvpath2, newline='') as csvfile:
